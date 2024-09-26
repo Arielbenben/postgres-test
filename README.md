@@ -2,6 +2,9 @@
 
 ## Pip Install:
 ````
+Run this line in the terminal: "pip install Flask psycopg2 returns SQLAlchemy typing" 
+
+It's will install you these packages:
 blinker==1.8.2
 click==8.1.7
 colorama==0.4.6
@@ -19,9 +22,7 @@ Werkzeug==3.0.4
 
 ## Run First:
 ````
-Run from app file:
-    create_tables()
-    insert_into_all_tables()
+Run the app.py file for creating the table and insert all the data.
 ````
 
 

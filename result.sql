@@ -27,8 +27,8 @@ after indexing:
         Planning Time: 0.164 ms
         Execution Time: 8.258 ms
 
-    Explain: I chosed to create indexes on these columns because we are searching, filtering and counting on their values. By creating an index,
-        we can shorter the execution time of the query.
+    Explain: I chosed to create indexes on these columns because we are searching, filtering and counting on their
+     values. By creating an index, we can shorter the execution time of the query.
 
     Compare Analyze:
         Planing Time: before - 0.273 ms, after - 0.164 ms
@@ -66,8 +66,8 @@ after indexing:
         Planning Time: 0.202 ms
         Execution Time: 0.162 ms
 
-    Explain: I chosed to create indexes on these columns because we are searching, filtering or counting on their values. By creating an index,
-        we can shorter the execution time of the query.
+    Explain: I chosed to create indexes on these columns because we are searching, filtering or counting on their
+     values. By creating an index, we can shorter the execution time of the query.
 
     Compare Analyze:
         Planing Time: before - 0.214 ms, after - 0.202 ms
