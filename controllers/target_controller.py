@@ -1,8 +1,6 @@
 from flask import Flask, Blueprint, jsonify, request
-
 from model import Target
 from service.target_service import convert_to_json, delete_target, update_target, create_target
-
 from service.target_service import get_target_by_id, get_all_targets
 
 
@@ -32,6 +30,7 @@ def get_all_targets_route():
 def delete_target_route(t_id: int):
     result = delete_target(t_id)
     return jsonify(result), 200
+
 
 @target_blue_print.route('/<int:t_id>', methods=['PUT'])
 def update_target_route(t_id: int):

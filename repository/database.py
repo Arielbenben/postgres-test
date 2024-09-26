@@ -1,5 +1,4 @@
-from config.base import engine, session_factory
-from config.base import Base
+from config.base import session_factory
 from sqlalchemy import text
 
 
